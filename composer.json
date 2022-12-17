@@ -28,7 +28,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Laravelbitrah\\Gateway\\": "src/"
+            "Ako\\Bitrah\\": "src/"
         }
     },
     "extra": {
