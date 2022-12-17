@@ -14,10 +14,10 @@ class BitrahServiceProvider extends ServiceProvider
     }
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'bitrah');
+        $this->mergeConfigFrom(__DIR__ . '/../../../../config/config.php', 'bitrah');
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config/config.php' => config_path('bitrah.php'),
+                __DIR__ . '/../../../../config/config.php' => config_path('bitrah.php'),
             ], 'config');
         }
     }
