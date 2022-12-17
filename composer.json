@@ -28,7 +28,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Ako\\Bitrah\\": "src/"
+            "akoteam\\Bitrah\\": "src/"
         }
     },
     "extra": {
