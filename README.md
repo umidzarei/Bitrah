@@ -1,8 +1,13 @@
 <h1 align="center">Bitrah Gateway Laravel Package</h1>
-<center>
 
+<h3>Introduction</h3>
+Get cryptocurrency from foreign customers and receive your income in Rial with bitrah gateway !
+
+### License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-</center>
+
+### Version
+v1.0.0
 
 ## Getting Started
 ### Install
@@ -68,9 +73,9 @@ array:4 [▼
 */
 ```
 
-## Documentation
+## Bitrah Documentation 
 [documentation](https://www.bitrah.ir/en/doc).
 
-### v1.0.0
+
 
 
