@@ -19,10 +19,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Akoteam\\Bitrah\\BitrahServiceProvider"
+                "Bitrah\\BitrahServiceProvider"
             ],
             "aliases": {
-                "Bitrah": "Akoteam\\Bitrah\\Facades\\Bitrah"
+                "Bitrah": "Bitrah\\Facades\\Bitrah"
             }
         }
     },
