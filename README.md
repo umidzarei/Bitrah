@@ -1,5 +1,8 @@
 <h1 align="center">Bitrah Gateway Laravel Package</h1>
+<center>
 
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+</center>
 
 ## Getting Started
 ### Install
@@ -68,9 +71,6 @@ array:4 [▼
 ## Documentation
 [documentation](https://www.bitrah.ir/en/doc).
 
-## Changelog
-## v1.0.0
+### v1.0.0
 
-## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
