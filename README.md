@@ -1,10 +1,16 @@
 <h1 align="center">Bitrah Gateway Laravel Package</h1>
 
 
-## Install
+## Getting Started
+### Install
 ```
 composer require akoteam/bitrah
 ```
+### Publish Config File
+```
+ php artisan vendor:publish --tag=bitrah_config
+```
+
 
 ## Samples
 ### Payment
