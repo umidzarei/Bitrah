@@ -42,10 +42,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "scripts": {
-        "post-autoload-dump": [
-            "@php artisan vendor:publish --tag=bitrah_config --force"
-        ]
-    }
+    "require": {}
 }
