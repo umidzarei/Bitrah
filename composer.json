@@ -13,16 +13,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Bitrah\\": "src/"
+            "Akoteam\\Bitrah\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bitrah\\BitrahServiceProvider"
+                "Akoteam\\Bitrah\\BitrahServiceProvider"
             ],
             "aliases": {
-                "Bitrah": "Bitrah\\Facades\\Bitrah"
+                "Bitrah": "Akoteam\\Bitrah\\Facades\\Bitrah"
             }
         }
     },
