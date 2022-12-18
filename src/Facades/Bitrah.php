@@ -1,6 +1,6 @@
 <?php
 
-namespace Ako\Bitrah\Facades;
+namespace Akoteam\Bitrah\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

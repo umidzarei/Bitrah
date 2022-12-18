@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1a2ea1cd2a966f40af9d36ddacf39431
+class ComposerStaticInit0663097b3d79858e1213691eeea92981
 {
     public static $prefixLengthsPsr4 = array (
-        'L' => 
+        'A' => 
         array (
-            'Laravelbitrah\\Gateway\\' => 22,
+            'Akoteam\\Bitrah\\' => 15,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Laravelbitrah\\Gateway\\' => 
+        'Akoteam\\Bitrah\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit1a2ea1cd2a966f40af9d36ddacf39431
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1a2ea1cd2a966f40af9d36ddacf39431::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1a2ea1cd2a966f40af9d36ddacf39431::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1a2ea1cd2a966f40af9d36ddacf39431::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0663097b3d79858e1213691eeea92981::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0663097b3d79858e1213691eeea92981::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0663097b3d79858e1213691eeea92981::$classMap;
 
         }, null, ClassLoader::class);
     }

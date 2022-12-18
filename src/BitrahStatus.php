@@ -2,7 +2,7 @@
 
 
 
-namespace Ako\Bitrah;
+namespace Akoteam\Bitrah;
 
 class BitrahStatus
 {

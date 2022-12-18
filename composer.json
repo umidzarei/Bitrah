@@ -1,7 +1,8 @@
 {
     "name": "akoteam/bitrah",
     "description": "bitrah gateway package for laravel",
-    "version":"1.0.0",
+    "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -10,6 +11,21 @@
         "bitrah",
         "bitrah-gateway"
     ],
+    "autoload": {
+        "psr-4": {
+            "Akoteam\\Bitrah\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akoteam\\Bitrah\\BitrahServiceProvider"
+            ],
+            "aliases": {
+                "Bitrah": "Akoteam\\Bitrah\\Facades\\Bitrah"
+            }
+        }
+    },
     "homepage": "https://github.com/umidzarei/Bitrah",
     "authors": [
         {
@@ -25,20 +41,6 @@
             "email": "ialiseyed@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Ako\\Bitrah\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ako\\Bitrah\\BitrahServiceProvider"
-            ],
-            "aliases": {
-                "Bitrah": "Ako\\Bitrah\\Facades\\Bitrah"
-            }
-        }
-    }
+    "minimum-stability": "dev",
+    "require": {}
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ako\Bitrah;
+namespace Akoteam\Bitrah;
 
 use Illuminate\Support\ServiceProvider;
 

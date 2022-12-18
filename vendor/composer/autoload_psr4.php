@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Laravelbitrah\\Gateway\\' => array($baseDir . '/src'),
+    'Akoteam\\Bitrah\\' => array($baseDir . '/src'),
 );

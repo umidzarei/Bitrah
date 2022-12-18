@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ako\Bitrah;
+namespace Akoteam\Bitrah;
 
 class Bitrah
 {
