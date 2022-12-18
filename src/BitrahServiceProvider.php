@@ -18,7 +18,7 @@ class BitrahServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__ . '/../config/config.php' => config_path('bitrah.php'),
-            ], 'config');
+            ], 'bitrah_config');
         }
     }
 }

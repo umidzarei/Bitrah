@@ -42,5 +42,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan vendor:publish --tag={bitrah_config} --force"
+        ]
+    },
 }
