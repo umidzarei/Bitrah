@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Akoteam\\Bitrah\\": "src/"
+            "Bitrah\\": "src/"
         }
     },
     "extra": {
