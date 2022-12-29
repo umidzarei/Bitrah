@@ -93,7 +93,7 @@ class Bitrah
                 'Content-Type: application/json',
                 'accept-language: ' . config('bitrah.bitrah_gateway_language'),
                 'Content-Length: ' . strlen($post),
-                'Authentication: bearer ' . $this->login(),
+                'Authentication: bearer ' . $this->auth(),
             ]
         );
         $result = curl_exec($ch);
